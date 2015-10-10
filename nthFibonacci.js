@@ -52,7 +52,6 @@ var fibonacci = (function() {
         value = n;
       else
         value = f(n - 1) + f(n - 2);
-
       memo[n] = value;
     }
     return value;
