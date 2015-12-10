@@ -18,3 +18,5 @@ var primeTester = function(n) {
   }
   return true;
 };
+
+console.log(primeTester(12))
